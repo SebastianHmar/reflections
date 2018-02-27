@@ -7,3 +7,11 @@ A folder called .git is created. It's a git directory. We need to do that so tha
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area exists between working directory and repository where we ready our files to be added to be the repository. Value that we don't mess up with adding the wrong files to commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+Staging area is where the files are added just before we commit them to the repository. It's the area where you make sure you commit only the files you want and don't want before commiting them to the repository. If there are two files, and you want the changes in first file to be commited, you commit that file. If you don't want the second file you can reset it and remove from the stage by using git reset --hard.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Whenever I need to add a new experimental feature that I'm not sure would work, instead of changing the code and commiting it, I could create a new branch where I could play with the code instead of working on the original code and messing it up. If that works, I could later merge the two :)
