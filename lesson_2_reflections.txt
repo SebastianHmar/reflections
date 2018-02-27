@@ -6,4 +6,4 @@ A folder called .git is created. It's a git directory. We need to do that so tha
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area exists between working directory and repository where we ready our files to be added to be the repository. Value that we don't mess up with adding the wrong files to commit
+Staging area exists between working directory and repository where we ready our files to be added to be the repository. Value that we don't mess up with adding the wrong files to commit.
