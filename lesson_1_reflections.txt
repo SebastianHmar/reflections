@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If there were any differences between the two files, diff shows us that differences through - & + symbols. - meaning the changes in the old file and + means the new changes in the new file.
+
+
+_____________________________________________________
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+In Git, it's better to commit when you make logical changes even small ones and commit each one. But just make sure to group similar ones so as to not create a huge pile of unnecessary commits.
+
+In Google Docs, I have no fucking idea
+
+__________________________________________________________
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+cause multiple files may be related to each other. Change in one file may or may not bring changes to other files.
+
+
+_________________________________________________________________
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will log all the changes giving us the date and time when those changes were made. Also gives us the author and what exact changes were made
+git diff compares two commits through their ids and tell us exactly which lines were inserted or deleted
+
+______________________________________________________________________________
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that I know how to use git to look at the changes made through commits, I can now revert back to any of the old commits where my code was working fine before bugs in the recent commits. Totally cool thing to do! All hail, git!
+
+__________________________________________________________________________________
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'll use git for when I'm working on my websites or apps as Git is the only version control system I know that can keep track of all of the changes I do in my code. Each change will be known as commit. I'll make sure not to do commits on non-logical changes
