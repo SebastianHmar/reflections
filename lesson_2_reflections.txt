@@ -15,3 +15,7 @@ Staging area is where the files are added just before we commit them to the repo
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Whenever I need to add a new experimental feature that I'm not sure would work, instead of changing the code and commiting it, I could create a new branch where I could play with the code instead of working on the original code and messing it up. If that works, I could later merge the two :)
+
+
+How do the diagrams help you visualize the branch structure?
+It lays out all the commits we've made till the current or the tip of the branch, i.e., the master. From the visualization we can go back to any commits, detached head state, and make new branches there to add new features without affecting the master branch
