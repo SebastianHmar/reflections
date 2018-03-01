@@ -19,3 +19,17 @@ Whenever I need to add a new experimental feature that I'm not sure would work, 
 
 How do the diagrams help you visualize the branch structure?
 It lays out all the commits we've made till the current or the tip of the branch, i.e., the master. From the visualization we can go back to any commits, detached head state, and make new branches there to add new features without affecting the master branch
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches would result into one main branch. The features on both branches would become one and work together
+Technically, Git merge will combine multiple sequences of commits into one unified history
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging is good for when you know there won't be any conflicts between commits/branches and you're totally sure about that. Cool feature!
+
+Manual merge is the best option for resolving conflicts yourself when git becomes confused about merging cause maybe both branches modified it and it's not sure which to keep
