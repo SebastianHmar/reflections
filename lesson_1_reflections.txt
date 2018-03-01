@@ -9,7 +9,7 @@ What do you think are the pros and cons of manually choosing when to create a co
 
 In Git, it's better to commit when you make logical changes even small ones and commit each one. But just make sure to group similar ones so as to not create a huge pile of unnecessary commits.
 
-In Google Docs, I have no fucking idea
+In Google Docs, I have no freaking idea
 
 __________________________________________________________
 
