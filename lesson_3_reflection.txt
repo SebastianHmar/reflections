@@ -20,4 +20,10 @@ _________________________________________________________________
 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-You can compare the features that you have added or changes you made with the origin/master to the remote on your Github and act accordingly. Whethere to pull, fetch and merge
+You can compare the features that you have added or changes you made with the origin/master to the remote on your Github and act accordingly. Whethere to pull, fetch and merge.
+
+_________________________________________________________________
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git/GitHub, collabaration wouldn't be that tough if the persons collaborating would be sitting next to each other and always discussing the changes and features they do with their project. But still, it would be tough as there wouldn't be any medium to keep track of all their changes simultaneously.
+Easier would be Git & GitHub, so they can keep track of all the changes. Especially better for those who are far from each other, as they have a central medium, GitHub, to communicate with and track changes.
