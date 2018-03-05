@@ -17,3 +17,7 @@ Clones are used when you want to modify the original project yourself. No need t
 Branches are different paths your files can follow to add different changes to your project without affecting the original file yet.
 
 _________________________________________________________________
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can compare the features that you have added or changes you made with the origin/master to the remote on your Github and act accordingly. Whethere to pull, fetch and merge
